@@ -1,1 +1,3 @@
 NewFile!
+This is a NewFile
+test 
