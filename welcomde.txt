@@ -8,5 +8,3 @@ tet
 so high
 here we on master
 here we on first_branch
-error test
-third text
