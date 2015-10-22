@@ -19,5 +19,4 @@ chmod 777 /var/lib/redis/dump.rdb
 /etc/init.d/redis-server start
 exit
 eeooff
-
 echo done!
