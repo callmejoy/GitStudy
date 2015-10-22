@@ -1,7 +1,7 @@
 #! /bin/bash
 rm ~/dump.rdb
 echo start dump REDIS_DATA
-scp root@112.74.83.210:/var/lib/redis/dump.rdb ~/
+scp root@111.13.101.208:/var/lib/redis/dump.rdb ~/
 
 ssh root@120.25.12.63 > /dev/null 2>&1 << eeooff
 redisPID=`pidof redis-server`
