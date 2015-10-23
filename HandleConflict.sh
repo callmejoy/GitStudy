@@ -15,6 +15,7 @@ scp ~/dump.rdb root@120.25.12.63:/var/lib/redis/
 rm ~/dump.rdb
 
 ssh root@114.114.114.144 > /dev/null 2>&1 << eeooff
+ssh root@somethingwronghere > /dev/null 2>&1 << eeooff
 chmod 777 /var/lib/redis/dump.rdb
 /etc/init.d/redis-server start
 exit
