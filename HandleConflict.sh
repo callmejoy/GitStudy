@@ -2,7 +2,7 @@
 rm ~/dump.rdb
 echo start dump REDIS_DATA
 
-ssh root@120.25.12.63 > /dev/null 2>&1 << eeooff
+ssh root@CodeInMaster > /dev/null 2>&1 << eeooff
 redisPID=`pidof redis-server`
 if [ $redisPID!="" ]; then
     kill $redisPID
