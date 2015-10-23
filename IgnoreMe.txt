@@ -1,0 +1,1 @@
+Remove me from git, then add ".gitignore" file and update the ramote Git project
